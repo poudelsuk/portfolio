@@ -1,0 +1,102 @@
+nav{
+    background-color: orange;
+    color:white;
+    padding:8px;
+    display:flex;
+    justify-content: end;
+    font-family: sans-serif;
+
+}
+ul{
+    list-style: none;
+    margin-left: 70%;
+
+}
+li{
+    float:left;
+    margin-right:20px;
+    border:2px antiquewhite none;
+    border-radius: 10px;
+    
+}
+li:hover{
+    background-color: aquamarine;
+}
+li a{
+    color:white;
+    text-decoration: none;
+
+
+}
+body{
+    margin:0%;
+}
+
+.banner_text{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform:translate(-50,-50);
+    text-align: center;
+    color:white
+}
+.banner_section{
+    position: relative;
+
+}
+.banner{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+}
+.banner_backdrop{
+    background-color: brown;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+
+}
+.portfolio_item{
+   display:flex;
+   flex-flow: wrap;
+   gap:10px;
+   justify-content: center;
+}
+.portfolio_item img{
+    width:32%;
+    border-radius: 15px;
+    transition:all 0.5s;
+}
+.heading{
+    justify-content: center;
+    text-align: center;
+   
+}
+.portfolio_item img:hover{
+    filter:brightness(0.7);
+}
+.button_section{
+    text-align: center;
+    background-color: bisque;
+    color: white;
+    padding: 20px;
+    margin-top:40px;
+
+}
+.button_download{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    background-color: aqua;
+    color:white;
+    border-radius: 20px;
+    border: 1px solid rgb(61, 209, 93);
+}
+.button_download:hover{
+    background-color: white;
+    color:black;
+
+}
