@@ -100,3 +100,33 @@ body{
     color:black;
 
 }
+.form1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+.contact-section h1{
+    text-align: center;
+    background-color:blueviolet;
+    margin-bottom: 0%;
+    
+
+}
+.btnsend{
+    display:block;
+    padding: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: aquamarine;
+}
+.foo{
+    margin-top: 16px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    margin-top: 0%;
+
+}
